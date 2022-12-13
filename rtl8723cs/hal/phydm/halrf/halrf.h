@@ -29,7 +29,8 @@
 /*@============================================================*/
 /*@include files*/
 /*@============================================================*/
-#include "halrf/halrf_psd.h"
+// #include "halrf/halrf_psd.h"
+#include "halrf_psd.h"
 #if (RTL8822B_SUPPORT == 1)
 #include "halrf/rtl8822b/halrf_rfk_init_8822b.h"
 #endif
