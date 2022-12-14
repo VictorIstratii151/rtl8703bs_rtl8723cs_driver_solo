@@ -1,4 +1,4 @@
-# rtl8703bs_rtl8723cs_driver_solo
+# rtl8703bs_rtl8723cs_linux_driver
 Linux driver for rtl870bs/rtl8723cs Realtek wifi chips. 
 extracted from https://github.com/megous/linux/tree/wifi-6.1 and modified in order to be built for mainline (6.1) linux kernel
 
