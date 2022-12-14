@@ -6,4 +6,7 @@ rtl8703bs and rtl8723cs are pin to pin compatible chips (from what I've found on
 
 
 In order to build the driver, run the following command from within rtl8723cs directory:
-`make -j4 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- KSRC=<PATH_TO_LINUX_DIR> M=$PWD`
+
+`make -j4 ARCH=arm CROSS_COMPILE=<YOUR_TOOLCHAIN> KSRC=<PATH_TO_LINUX_DIR> M=$PWD`
+
+Tested with ARM cross compilation toolchain.
